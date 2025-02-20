@@ -1,1 +1,60 @@
-/* write your override styles here */
+#wall .tag-1,
+#wall #tag-2,
+#wall #tag-3,
+#wall #tag-4,
+#wall #tag-5,
+#wall #tag-6,
+#wall #tag-7 {
+    display: none;
+}
+
+#wall .tag-1 img,
+#wall #tag-2 img,
+#wall #tag-3 img,
+#wall #tag-4 img,
+#wall #tag-5 img,
+#wall #tag-6 img,
+#wall #tag-7 img {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#wall .tag-1,
+#wall #tag-2,
+#wall #tag-3,
+#wall #tag-4,
+#wall #tag-5,
+#wall #tag-6,
+#wall #tag-7 {
+    background: none !important;
+}
+
+div#wall div.tag-1,
+div#wall div#tag-2,
+div#wall div#tag-3,
+div#wall div#tag-4,
+div#wall div#tag-5,
+div#wall div#tag-6,
+div#wall div#tag-7 {
+    display: none;
+}
+
+div#wall div.tag-1 *,
+div#wall div#tag-2 *,
+div#wall div#tag-3 *,
+div#wall div#tag-4 *,
+div#wall div#tag-5 *,
+div#wall div#tag-6 *,
+div#wall div#tag-7 * {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#wall div[class^="tag"],
+#wall div[id^="tag"] {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    background: none;
+}
